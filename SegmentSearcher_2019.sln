@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capybara.EditorPlugin.Segme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capybara.EditorPlugin.SegmentSearcher_2017", "Capybara.EditorPlugin.SegmentSearcher_2017\Capybara.EditorPlugin.SegmentSearcher_2017.csproj", "{FB0184BA-399A-4734-B271-201554CF76A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEAF6C50-779A-4D9D-A744-54401109493D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		readme.md = readme.md
+		SegmentSearcher.snk = SegmentSearcher.snk
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

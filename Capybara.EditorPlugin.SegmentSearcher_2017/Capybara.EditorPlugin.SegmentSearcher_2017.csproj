@@ -109,7 +109,6 @@
     <EmbeddedResource Include="SegmentSearcherViewPartControl.resx">
       <DependentUpon>SegmentSearcherViewPartControl.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Capybara.EditorPlugin.SegmentSearcher.snk" />
     <None Include="Resources\main.js" />
     <None Include="Resources\jquery-1.9.1.min.js" />
     <None Include="Resources\base.html" />
@@ -120,6 +119,7 @@
       <LastGenOutput>PluginResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Content Include="pluginpackage.manifest.xml" />
+    <None Include="SegmentSearcher.snk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -131,7 +131,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Capybara.EditorPlugin.SegmentSearcher.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>SegmentSearcher.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Sdl.Core.PluginFramework.Build.14.0.0\Build\net45\Sdl.Core.PluginFramework.Build.targets" Condition="Exists('..\packages\Sdl.Core.PluginFramework.Build.14.0.0\Build\net45\Sdl.Core.PluginFramework.Build.targets')" />
