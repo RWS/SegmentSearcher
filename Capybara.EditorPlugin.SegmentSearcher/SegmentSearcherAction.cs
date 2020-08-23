@@ -21,7 +21,7 @@ namespace Capybara.EditorPlugin.SegmentSearcher
             var segmentSearcherViewPartController =
                 SdlTradosStudio.Application.GetController<SegmentSearcherViewPartController>();
 
-            Document doc = editorController.ActiveDocument;
+            var doc = editorController.ActiveDocument;
             if (doc == null)
             {
                 return;

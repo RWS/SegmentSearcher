@@ -1,6 +1,7 @@
 ﻿using System;
 using Sdl.Desktop.IntegrationApi;
 using Sdl.Desktop.IntegrationApi.Extensions;
+using Sdl.Desktop.IntegrationApi.Interfaces;
 using Sdl.TranslationStudioAutomation.IntegrationApi;
 
 namespace Capybara.EditorPlugin.SegmentSearcher
@@ -14,7 +15,7 @@ namespace Capybara.EditorPlugin.SegmentSearcher
     [ViewPartLayout(typeof(EditorController), Dock = DockType.Bottom)]
     class SegmentSearcherViewPartController : AbstractViewPartController
     {
-        protected override System.Windows.Forms.Control GetContentControl()
+        protected override IUIControl GetContentControl()
         {
             return Control.Value;
         }

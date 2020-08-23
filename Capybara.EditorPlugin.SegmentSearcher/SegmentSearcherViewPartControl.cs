@@ -12,15 +12,16 @@ using System.Windows.Forms;
 using Sdl.Core.Globalization;
 using Sdl.FileTypeSupport.Framework.BilingualApi;
 using Sdl.TranslationStudioAutomation.IntegrationApi;
+using Sdl.Desktop.IntegrationApi.Interfaces;
 
 namespace Capybara.EditorPlugin.SegmentSearcher
 {
     [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
     [System.Runtime.InteropServices.ComVisibleAttribute(true)]
-    public partial class SegmentSearcherViewPartControl : UserControl
+    public partial class SegmentSearcherViewPartControl : UserControl, IUIControl
     {
         private const int FindWhatMaxHistory = 30;
-        private Document _currentDoc;
+        private IStudioDocument _currentDoc;
         private ISegmentPair _currentSegmentPair;
         
 
@@ -141,8 +142,8 @@ namespace Capybara.EditorPlugin.SegmentSearcher
         private XDocument ExecuteSearch(SearchSettings search)
         {
             var editorController = GetEditorController();
-            IEnumerable<Document> searchDocuments = search.OnlyInActiveDocument
-                ? new List<Document> { editorController.ActiveDocument }
+            IEnumerable<IStudioDocument> searchDocuments = search.OnlyInActiveDocument
+                ? new List<IStudioDocument> { editorController.ActiveDocument }
                 : editorController.GetDocuments();
             var xhtml = XDocument.Parse(PluginResources.base_html);
             var resultsElem = xhtml.Descendants(Xhtml.table).First(x => x.Attribute("id").Value == "results");
