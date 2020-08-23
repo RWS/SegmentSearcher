@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capybara.EditorPlugin.SegmentSearcher", "Capybara.EditorPlugin.SegmentSearcher\Capybara.EditorPlugin.SegmentSearcher.csproj", "{51928F97-0454-4EB1-B6E6-47AE84643C8A}"
 EndProject
@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capybara.EditorPlugin.Segme
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEAF6C50-779A-4D9D-A744-54401109493D}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		LICENSE.md = LICENSE.md
 		readme.md = readme.md
 		SegmentSearcher.snk = SegmentSearcher.snk
