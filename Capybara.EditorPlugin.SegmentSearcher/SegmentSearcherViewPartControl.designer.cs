@@ -157,7 +157,7 @@
             this.useRegexCheckBox.AutoSize = true;
             this.useRegexCheckBox.Location = new System.Drawing.Point(382, 3);
             this.useRegexCheckBox.Name = "useRegexCheckBox";
-            this.useRegexCheckBox.Size = new System.Drawing.Size(148, 19);
+            this.useRegexCheckBox.Size = new System.Drawing.Size(149, 19);
             this.useRegexCheckBox.TabIndex = 0;
             this.useRegexCheckBox.Text = "Use regular expressions";
             this.useRegexCheckBox.UseVisualStyleBackColor = true;
@@ -165,7 +165,7 @@
             // includeTagsCheckBox
             // 
             this.includeTagsCheckBox.AutoSize = true;
-            this.includeTagsCheckBox.Location = new System.Drawing.Point(536, 3);
+            this.includeTagsCheckBox.Location = new System.Drawing.Point(537, 3);
             this.includeTagsCheckBox.Name = "includeTagsCheckBox";
             this.includeTagsCheckBox.Size = new System.Drawing.Size(90, 19);
             this.includeTagsCheckBox.TabIndex = 0;
@@ -175,7 +175,7 @@
             // onlyInActiveDocCheckBox
             // 
             this.onlyInActiveDocCheckBox.AutoSize = true;
-            this.onlyInActiveDocCheckBox.Location = new System.Drawing.Point(632, 3);
+            this.onlyInActiveDocCheckBox.Location = new System.Drawing.Point(633, 3);
             this.onlyInActiveDocCheckBox.Name = "onlyInActiveDocCheckBox";
             this.onlyInActiveDocCheckBox.Size = new System.Drawing.Size(156, 19);
             this.onlyInActiveDocCheckBox.TabIndex = 0;

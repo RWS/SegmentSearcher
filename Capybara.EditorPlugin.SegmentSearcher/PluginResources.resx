@@ -136,13 +136,25 @@
   <data name="Plugin_Name" xml:space="preserve">
     <value>SegmentSearcher</value>
   </data>
-  <data name="SegmentSearcher_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\Preview.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="SegmentSearcherAction_Description" xml:space="preserve">
     <value>Search in opened documents</value>
   </data>
   <data name="SegmentSearcherAction_Name" xml:space="preserve">
     <value>Search by SegmentSearcher</value>
+  </data>
+  <data name="SegmentSearcher_Documentation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SegmentSearcher_Documentation.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SegmentSearcher_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SegmentSearcher_Logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SegmentSearcher_Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SegmentSearcher_Question.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SegmentSearcher_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SegmentSearcher_Settings.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SegmentSearcher_SourceCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SegmentSearcher_SourceCode.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
