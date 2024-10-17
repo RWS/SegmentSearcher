@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PluginPackage xmlns="http://www.sdl.com/Plugins/PluginPackage/1.0">
   <PlugInName>SegmentSearcher  - Trados</PlugInName>
-  <Version>3.0.0.0</Version>
+  <Version>3.0.0.1</Version>
   <Description>
 	  SegmentSearcher  - Trados, allows you to display segments in a HTML format within the Editor view based  on search criteria s defined by user
 	  Credits:

@@ -20,7 +20,7 @@ namespace Capybara.EditorPlugin.SegmentSearcher.TellMeProvider
                 }
             },
 
-            new SegmentSearcherContactAction()
+            new SegmentSeracherCommunitySupportAction()
             {
                 Keywords = new[]
                 {
