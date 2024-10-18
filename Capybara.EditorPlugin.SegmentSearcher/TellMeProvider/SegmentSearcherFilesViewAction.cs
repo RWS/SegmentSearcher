@@ -13,7 +13,7 @@ namespace Capybara.EditorPlugin.SegmentSearcher.TellMeProvider
     {
         public SegmentSearcherFilesViewAction()
         {
-            Name = "SegmentSearcher - Trados Settings: ";
+            Name = "SegmentSearcher - Trados Settings";
         }
 
         public override string Category => $"{PluginResources.Plugin_Name} results";
